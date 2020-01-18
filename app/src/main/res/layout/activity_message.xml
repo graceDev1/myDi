@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:id="@+id/toolbar_m"
+            app:popupTheme="@style/MenuStyle"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/profile_image_m"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="18sp"
+                android:id="@+id/username_m"
+                android:layout_toRightOf="@+id/profile_image_m"
+                android:layout_toEndOf="@+id/profile_image_m"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="25dp"
+                />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_message"
+        android:layout_above="@+id/relative"
+        android:layout_below="@+id/bar_layout"
+        />
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="#fff"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_send"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:hint="Tape a message ..."
+
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btn_send"
+            android:background="@drawable/ic_send"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,201 @@
+{
+  "project_info": {
+    "project_number": "1071239624267",
+    "firebase_url": "https://mycoachdia.firebaseio.com",
+    "project_id": "mycoachdia",
+    "storage_bucket": "mycoachdia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:4323511b20cfe6c7",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.admindiab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:0e57383ca77756ec",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:d8652793f9641511",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.diabcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:be64ea9f6f69c40d",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.mycoachdbt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-ui4hqm1th5re4mbvvf752hjpee5mit2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codler_fun.mycoachdbt",
+            "certificate_hash": "f66809fec1f0656bb49f3e46b56647d8d37e0549"
+          }
+        },
+        {
+          "client_id": "1071239624267-fp4usv3t1gmc08rmhuic8398das2n031.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codler_fun.mycoachdbt",
+            "certificate_hash": "0eb063494e558836156986dc7fb2577c8c395edb"
+          }
+        },
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:1e9fd60bc3a1d07f",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.mycoachdi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071239624267:android:f8cf97108acf82db",
+        "android_client_info": {
+          "package_name": "com.example.codler_fun.navdrawe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_La1t61VE-KkmxmgxolyGzCR0UNmWTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071239624267-9n2gu8b6kjbdcm198ni2juddjeu7h7kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

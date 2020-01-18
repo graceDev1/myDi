@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/userphoto"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/image_reg"
+            />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtname"
+            android:background="@drawable/reg_edittext_style"
+            android:hint="@string/name"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_email"
+            android:background="@drawable/reg_edittext_style"
+            android:hint="@string/login_user"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <EditText
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtpass"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:background="@drawable/reg_edittext_style"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtpass1"
+            android:hint="@string/conf"
+            android:inputType="textPassword"
+            android:background="@drawable/reg_edittext_style"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/create"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/reg_btn_style"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btn_reg"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/already"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/txt_ready"
+            android:textColor="@color/colorPrimary"
+            />
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/progress_reg"
+            />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

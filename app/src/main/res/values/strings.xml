@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyCoachD</string>
+    <string name="login_user">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="newt">New to CoachDi?</string>
+    <string name="reg">Register</string>
+    //for registration
+
+    <string name="name">Name</string>
+    <string name="telphone">Phone number</string>
+    <string name="save">Save</string>
+    <string name="conf">Confirm Password</string>
+    <string name="create">Sign Up</string>
+    <string name="already">i have an account !</string>
+
+
+    //
+    <string name="aliment">Alimentation</string>
+    <string name="sport">Sport</string>
+    <string name="insuline">Insuline</string>
+    <string name="prevention">Prevention</string>
+    <string name="glyceni">Glycemie</string>
+    <string name="poid">Mon poids</string>
+
+    // for user phone
+
+    <string name="phone">Phone number</string>
+    <string name="send">send </string>
+    <string name="reguser">create an account!</string>
+
+    //for register user
+    <string name="verif">Tape le code</string>
+    <string name="ver">Verifier</string>
+
+
+    //for glycemie
+    <string name="prelever"> A preveler chaque jour</string>
+    <string name="gly">Entrer glycemie</string>
+</resources>

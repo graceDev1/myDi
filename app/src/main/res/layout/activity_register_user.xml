@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Register_user">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="120dp"
+         android:layout_height="120dp"
+         android:layout_gravity="center"
+         android:id="@+id/reguser_img"
+         android:src="@drawable/userphoto"
+         android:layout_marginBottom="20dp"
+         />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/tex_name"
+          android:inputType="text"
+          android:hint="@string/name"
+          android:layout_marginBottom="10dp"
+          android:background="@drawable/reg_edittext_style"
+          />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_phone"
+            android:hint="@string/phone"
+            android:layout_marginBottom="10dp"
+            android:inputType="phone"
+            android:background="@drawable/reg_edittext_style"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_reguse"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/reg_btn_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/logn_act"
+
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
